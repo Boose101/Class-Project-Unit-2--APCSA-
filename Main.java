@@ -1,6 +1,10 @@
 package ProjectU2;
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
+        /* 
         Cow franny = new Cow();
         Cow greta = new Cow("Gretta", 100, 1, false);
         System.out.println(franny.makeNoise());
@@ -18,7 +22,9 @@ public class Main {
         System.out.println(pickles.makeNoise());
         piglet.upgradePenSize(3);
         System.out.println(piglet.displayPig());
-        
+        */
+
+        System.out.println("Hello! Whats your name?");
     
     }
 }
