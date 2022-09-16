@@ -20,19 +20,19 @@ public class Pig {
         weight = we;
     }
 
-    public void makeNoise(){
-        System.out.println("Oink Oink");
+    public String makeNoise(){
+        return "Oink Oink";
     }
 
     public void upgradePenSize(int s){
         penSize += s;
     }
 
-    public void displayPig(){
-        System.out.println("Color: " + color);
-        System.out.println("Weight: " + weight);
-        System.out.println("Pen Size: " + penSize);
-        System.out.println("Wallowed: " + wallowed);
+    public String displayPig(){
+        return("Color: " + color + '\n' +
+            "Weight: " + weight + '\n' +
+            "Pen Size: " + penSize + '\n' +
+            "Wallowed: " + wallowed);
     }
 }
 

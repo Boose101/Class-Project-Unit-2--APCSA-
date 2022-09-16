@@ -17,17 +17,17 @@ public class Cow {
         weight = w;
         gender = g;
     }
-    public void makeNoise(){
-        System.out.println("Mooooo");
+    public String makeNoise(){
+        return "Mooooo";
     }
     public void haveBirthday(){
         age++;
     }
-    public void displayCow(){
-        System.out.println("Name: " + name);
-        System.out.println("Weight: " + weight);
-        System.out.println("Age: " + age);
-        System.out.println("Gender: " + gender);
+    public String displayCow(){
+        return("Name: " + name + '\n' +
+            "Weight: " + weight + '\n' +
+            "Age: " + age + '\n' +
+            "Gender: " + gender);
     }
 
     

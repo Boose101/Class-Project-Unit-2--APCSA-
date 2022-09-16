@@ -20,18 +20,18 @@ public class Chicken {
         weight = w;
     }
 
-    public void makeNoise(){
-        System.out.println("Cluck Cluck");
+    public String makeNoise(){
+        return "Cluck Cluck";
     }
 
     public void eatFood(int amount){
         weight+=amount;
     }
-    public void displayChicken(){
-        System.out.println("Breed: " + breed);
-        System.out.println("Weight: " + weight);
-        System.out.println("Eggs Laied per Day: " + eggsADay);
-        System.out.println("Is mean: " + mean);
+    public String displayChicken(){
+        return("Breed: " + breed + '\n' +
+            "Weight: " + weight + '\n' +
+            "Eggs Laied per Day: " + eggsADay + '\n' +
+            "Is mean: " + mean);
     }
 }
 
