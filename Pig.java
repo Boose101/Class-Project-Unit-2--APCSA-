@@ -1,14 +1,17 @@
 package ProjectU2;
+import java.math.random;
 
 public class Pig {
     private String color;
     private int penSize;
     private boolean wallowed;
     private double weight;
+    private String[] c_options = {"Pink", "Black", "White", "Spotted", "Brindle"};
+    private int c_rand = random.nextInt(c_options.length);
 
     public Pig(){
-        color = "Pink";
-        penSize = 128;
+        color = c_options[c_rand];
+        penSize = (random.nextInt(64) + 64);
         wallowed = true;
         weight = 285;
     }
