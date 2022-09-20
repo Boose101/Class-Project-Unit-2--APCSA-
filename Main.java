@@ -1,9 +1,5 @@
-package ProjectU2;
-
 import java.util.Scanner;
 import java.lang.Thread;
-import java.nio.channels.SelectableChannel;
-import java.io.*; 
 
 
 public class Main {
@@ -31,7 +27,7 @@ public class Main {
         */
         
 
-
+        Scanner scan = new Scanner(System.in);
         System.out.println("Hello! Whats your name?");
         String name = scan.nextLine();
         sleep(2);

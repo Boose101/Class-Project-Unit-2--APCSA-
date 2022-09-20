@@ -1,4 +1,3 @@
-package ProjectU2;
 public class Cow {
     private String name;
     private double weight;

@@ -1,10 +1,13 @@
-package ProjectU2;
 import java.util.ArrayList;
+import java.io .*;
+import java.util.Scanner;
 public class Farm {
     public ArrayList<String> names = new ArrayList<String>();
     public void generator(){
         
-        private static void ReadFile(){
+        
+    }
+    private void ReadFile(){
             try{
                 File myObj = new File("names.txt");
                 Scanner reader = new Scanner(myObj);
@@ -16,5 +19,4 @@ public class Farm {
                 fnf.printStackTrace();
             }
         }
-    }
 }

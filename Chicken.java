@@ -1,5 +1,3 @@
-package ProjectU2;
-
 public class Chicken {
     private String breed;
     private int eggsADay;

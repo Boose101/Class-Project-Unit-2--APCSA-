@@ -1,4 +1,3 @@
-package ProjectU2;
 import java.math.random;
 
 public class Pig {
