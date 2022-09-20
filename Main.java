@@ -26,6 +26,7 @@ public class Main {
         piglet.upgradePenSize(3);
         System.out.println(piglet.displayPig());
         */
+        
 
         System.out.println("Hello! Whats your name?");
         String name = scan.nextLine();
@@ -35,7 +36,13 @@ public class Main {
         System.out.println("The farmer hasn't been running well in your absense");
         sleep(1);
         System.out.println("It's been a hard couple of months.");
-        
+
+        //end of intro
+
+        System.out.println("Here is the overview of the farm");
+        System.out.println()
+
+
 
     }
 
@@ -46,4 +53,6 @@ public class Main {
             System.out.println(e);
         }
     }
+
+
 }

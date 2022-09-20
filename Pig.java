@@ -12,8 +12,8 @@ public class Pig {
     public Pig(){
         color = c_options[c_rand];
         penSize = (random.nextInt(64) + 64);
-        wallowed = true;
-        weight = 285;
+        wallowed = random.nextBoolean();
+        weight = (random.nextInt(660) + 110);
     }
 
     public Pig(String c, int p, boolean w, double we){
