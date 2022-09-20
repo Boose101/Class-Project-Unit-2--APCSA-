@@ -23,6 +23,7 @@ public class Cow {
     public void haveBirthday(){
         age++;
     }
+    
     public String displayCow(){
         return("Name: " + name + '\n' +
             "Weight: " + weight + '\n' +
