@@ -5,8 +5,11 @@ import java.lang.Thread;
 import java.nio.channels.SelectableChannel;
 import java.io.*; 
 
+
 public class Main {
+
     public static void main(String[] args){
+
         /* 
         Cow franny = new Cow();
         Cow greta = new Cow("Gretta", 100, 1, false);
@@ -28,6 +31,7 @@ public class Main {
         */
         
 
+
         System.out.println("Hello! Whats your name?");
         String name = scan.nextLine();
         sleep(2);
@@ -40,7 +44,6 @@ public class Main {
         //end of intro
 
         System.out.println("Here is the overview of the farm");
-        System.out.println()
 
 
 
@@ -50,7 +53,8 @@ public class Main {
         try{
             Thread.sleep(time*1000);
         }catch(Exception e){
-            System.out.println(e);
+            System.out.println("An error occured!");
+            e.printStackTrace();
         }
     }
 
