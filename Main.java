@@ -28,6 +28,7 @@ public class Main {
         
 
         Scanner scan = new Scanner(System.in);
+        
         System.out.println("Hello! Whats your name?");
         String name = scan.nextLine();
         sleep(2);
@@ -36,6 +37,8 @@ public class Main {
         System.out.println("The farmer hasn't been running well in your absense");
         sleep(1);
         System.out.println("It's been a hard couple of months.");
+
+        scan.close();
 
         //end of intro
 

@@ -3,8 +3,17 @@ import java.io .*;
 import java.util.Scanner;
 public class Farm {
     public ArrayList<String> names = new ArrayList<String>();
-    public void generator(){
-        
+    public void generator(String type, int count){
+        if(type.equals("pig")){
+
+        }else if(type.equals("cow")){
+
+        }else if(type.equals("chicken")){
+            
+        }
+        try{
+
+        }
         
     }
     private void ReadFile(){

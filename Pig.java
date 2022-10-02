@@ -1,4 +1,5 @@
-import java.math.random;
+import java.util.Random;   
+
 
 public class Pig {
     private String color;
@@ -6,6 +7,7 @@ public class Pig {
     private boolean wallowed;
     private double weight;
     private String[] c_options = {"Pink", "Black", "White", "Spotted", "Brindle"};
+    private Random random = new Random();   
     private int c_rand = random.nextInt(c_options.length);
 
     public Pig(){
